@@ -6,7 +6,9 @@ int main()
 	int i,j,k;
 	char str1[50], str2[50], str3[50]; 
 	
+	printf("Enter string 1: ");
 	scanf("%s",str1);
+	printf("Enter string 2: ");
 	scanf("%s",str2);
 	
 	i=0;
@@ -41,6 +43,8 @@ int main()
   		j++;
         	k++;
     	}
+	
+	str3[k] = '\0';
  
 	puts(str3);
 }
